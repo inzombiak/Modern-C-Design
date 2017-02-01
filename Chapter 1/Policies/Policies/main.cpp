@@ -193,7 +193,7 @@ struct RandomMovement
 {
 	static void Move()
 	{
-		std::cout << "moving randomly" << std::endl;
+		std::cout << "Moving randomly" << std::endl;
 	}
 };
 
@@ -266,7 +266,7 @@ int main()
 
 	SpawnSpiderFamiliar ssf;
 	ssf.m_name = "SSF";
-	//ssf.SetFollowTarget(&e1);
+	//ssf.SetFollowTarget(&e1); //<< Wont compile
 
 	ssf.Move();
 	ssf.Attack();
