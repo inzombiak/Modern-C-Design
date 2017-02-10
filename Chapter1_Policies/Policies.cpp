@@ -230,6 +230,7 @@ public:
 		AttackPolicy::Spawn();
 	}
 };
+
 typedef Familiar<LilBuddyAttack, LBShootOnCollision, Follow<Player>>				LilBuddyFamiliar;
 typedef	Familiar<OrbitingFlyAttack, FlyOnCollision,	 Follow<Enemy>>					Fly;
 typedef Familiar<SpawnSpiderAttack, SpawnSpiderOnCollision, RandomMovement>			SpawnSpiderFamiliar;

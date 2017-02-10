@@ -1,10 +1,10 @@
-﻿Build started 2/6/2017 8:37:52 PM.
+﻿Build started 2/7/2017 7:34:55 PM.
      1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\ModernCppDesign\ModernCppDesign.vcxproj" on node 2 (Build target(s)).
      1>Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\ModernCppDesign.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug" Chapter1_Policies.lib Chapter2_Techniques.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\ModernCppDesign.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\ModernCppDesign.lib" /MACHINE:X86 Debug\main.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\ModernCppDesign.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug" Chapter1_Policies.lib Chapter2_Techniques.lib TheBindingOfCppDesign.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\ModernCppDesign.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\ModernCppDesign.lib" /MACHINE:X86 Debug\main.obj
          ModernCppDesign.vcxproj -> C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\ModernCppDesign.exe
      1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\ModernCppDesign\ModernCppDesign.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.69
+Time Elapsed 00:00:01.04

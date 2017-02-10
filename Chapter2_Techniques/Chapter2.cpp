@@ -12,13 +12,14 @@ Chapter 2 covers generic programming techniques.
 I don't know if I'll be able to come up with a
 theme for these, so I'll seperate them into sections and if I
 come up with an idea merge them.
-Some of the ideas may not fit into game dev, but I'm going to do them anyway
+Some of the ideas may not fit into game dev, but I'm going to do them anyway.
+
+
+
 */
 
 /*
 2.2. Partial Template Specialization
-
-TODO: Merge to policies with above, nothing special here
 */
 
 /*
@@ -43,19 +44,6 @@ struct Select<false, T, U>
 /*
 End 2.6.
 */
-
-/*
-2.7. Detecting Convertibility and Inheritance at Compile Time
-
-TODO: Test for components, merge with the policies code
-*/
-
-
-
-/*
-End 2.7.
-*/
-
 /*
 2.8. A Wrapper Around std::type_info
 TODO: copy paste?
@@ -69,10 +57,6 @@ End 2.8.
 /*
 2.9. NullType and EmptyType
 */
-
-class NullType {};
-
-struct EmptyType {};
 
 /*
 End 2.9.

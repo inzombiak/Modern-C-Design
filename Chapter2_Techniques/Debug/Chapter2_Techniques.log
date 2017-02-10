@@ -1,5 +1,5 @@
-﻿Build started 2/6/2017 8:37:51 PM.
-     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter2_Techniques\Chapter2_Techniques.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2/7/2017 7:18:19 PM.
+     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter2_Techniques\Chapter2_Techniques.vcxproj" on node 3 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Ch2_10.cpp Chapter2.cpp
          Chapter2.cpp
@@ -19,4 +19,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.71
+Time Elapsed 00:00:03.72
