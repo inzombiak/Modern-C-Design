@@ -30,17 +30,7 @@ End of 2.2.
 2.6. Type Selection
 TODO: FIGURE IT OUT
 */
-template <bool flag, typename T, typename U>
-struct Select
-{
-	typedef T Result;
-};
 
-template <typename T, typename U>
-struct Select<false, T, U>
-{
-	typedef U Result;
-};
 /*
 End 2.6.
 */

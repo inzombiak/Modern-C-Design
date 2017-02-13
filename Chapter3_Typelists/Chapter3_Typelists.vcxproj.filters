@@ -18,12 +18,15 @@
     <ClInclude Include="Typelists.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Ch3.h">
+    <ClInclude Include="Chapter3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeTraits.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Ch3.cpp">
+    <ClCompile Include="Chapter3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

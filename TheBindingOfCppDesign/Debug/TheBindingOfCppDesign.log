@@ -1,18 +1,9 @@
-﻿Build started 2/7/2017 7:34:51 PM.
-     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\TheBindingOfCppDesign\TheBindingOfCppDesign.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Attacks.cpp Game.cpp
-         Game.cpp
-         Generating Code...
-         Skipping... (no relevant changes detected)
-         Attacks.cpp
-       Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\TheBindingOfCppDesign.lib" /NOLOGO Debug\Attacks.obj
-         Debug\Game.obj
-     1>Attacks.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+﻿Build started 2/13/2017 5:40:44 PM.
+     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\TheBindingOfCppDesign\TheBindingOfCppDesign.vcxproj" on node 3 (Build target(s)).
+     1>Lib:
          TheBindingOfCppDesign.vcxproj -> C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\TheBindingOfCppDesign.lib
      1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\TheBindingOfCppDesign\TheBindingOfCppDesign.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.51
+Time Elapsed 00:00:00.31
