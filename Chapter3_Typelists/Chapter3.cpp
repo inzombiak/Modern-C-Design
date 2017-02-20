@@ -243,7 +243,7 @@ void Chapter3::Run()
 
 	typedef TYPELIST_4(int, int, std::string, bool) bookTL;
 	HierarchyGenerators::GenScatterHierarchy<bookTL, Handle> bookHandler;
-	std::cout << "Generating Book class that inheirs from int(ID of book), int(edition of book), std::string(name) and bool(currently in inventory)" << std::endl;
+	std::cout << "Generating Book class that inherits from int(ID of book), int(edition of book), std::string(name) and bool(currently in inventory)" << std::endl;
 	HierarchyGenerators::Field<0>(bookHandler).value = 10;
 	HierarchyGenerators::Field<1>(bookHandler).value = 1;
 	HierarchyGenerators::Field<2>(bookHandler).value = "Book of Sin";

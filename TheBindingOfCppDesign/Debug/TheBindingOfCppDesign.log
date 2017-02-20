@@ -1,9 +1,22 @@
-﻿Build started 2/13/2017 5:40:44 PM.
-     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\TheBindingOfCppDesign\TheBindingOfCppDesign.vcxproj" on node 3 (Build target(s)).
-     1>Lib:
-         TheBindingOfCppDesign.vcxproj -> C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\TheBindingOfCppDesign.lib
-     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\TheBindingOfCppDesign\TheBindingOfCppDesign.vcxproj" (Build target(s)).
+﻿Build started 2/20/2017 7:24:25 PM.
+     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\TheBindingOfCppDesign\TheBindingOfCppDesign.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
+         Game.cpp
+     1>c:\users\user\documents\github\modern c++ design\thebindingofcppdesign\familiar.h(32): error C2039: 'Collided' : is not a member of 'RandomMovement'
+                 c:\users\user\documents\github\modern c++ design\thebindingofcppdesign\movementbehaviors.h(21) : see declaration of 'RandomMovement'
+                 c:\users\user\documents\github\modern c++ design\thebindingofcppdesign\game.cpp(49) : see reference to function template instantiation 'void Familiar<LilBuddyAttack,RandomMovement,Follow<Player>>::Collided<Enemy>(O *)' being compiled
+                 with
+                 [
+                     O=Enemy
+                 ]
+                 c:\users\user\documents\github\modern c++ design\thebindingofcppdesign\game.cpp(49) : see reference to function template instantiation 'void Familiar<LilBuddyAttack,RandomMovement,Follow<Player>>::Collided<Enemy>(O *)' being compiled
+                 with
+                 [
+                     O=Enemy
+                 ]
+     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\TheBindingOfCppDesign\TheBindingOfCppDesign.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:00.31
+Time Elapsed 00:00:00.52

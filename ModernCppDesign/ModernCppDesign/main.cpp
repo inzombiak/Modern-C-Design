@@ -13,6 +13,7 @@ int main()
 	Chapter1::Policies::Run();
 	std::cout << std::endl;
 	std::cout << "****Chapter 1 End****" << std::endl;
+	std::cout << std::endl;
 	*/
 	/*
 	std::cout << "****Chapter 2 Start****" << std::endl;
@@ -20,6 +21,7 @@ int main()
 	Chapter2::Run();
 	std::cout << std::endl;
 	std::cout << "****Chapter 2 End****" << std::endl;
+	std::cout << std::endl;
 	*/
 
 	std::cout << "****Chapter 3 Start****" << std::endl;
@@ -27,7 +29,13 @@ int main()
 	Chapter3::Run();
 	std::cout << std::endl;
 	std::cout << "****Chapter 3 End****" << std::endl;
+	std::cout << std::endl;
 
+	std::cout << "****Game Start****" << std::endl;
+	std::cout << std::endl;
 	Game g;
 	g.Run();
+	std::cout << std::endl;
+	std::cout << "****Game End****" << std::endl;
+	std::cout << std::endl;
 }

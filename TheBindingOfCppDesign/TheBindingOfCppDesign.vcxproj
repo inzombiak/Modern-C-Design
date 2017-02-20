@@ -82,15 +82,18 @@
     <ClInclude Include="Collisions.h" />
     <ClInclude Include="CompileTimeChecker.h" />
     <ClInclude Include="Familiar.h" />
+    <ClInclude Include="FamiliarFactory.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Modifieres.h" />
     <ClInclude Include="MovementBehaviors.h" />
     <ClInclude Include="Trajectories.h" />
+    <ClInclude Include="Typelists.h" />
     <ClInclude Include="TypeTraits.h" />
     <ClInclude Include="Utilities.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Attacks.cpp" />
+    <ClCompile Include="FamiliarFactory.cpp" />
     <ClCompile Include="Game.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

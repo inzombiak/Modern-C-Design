@@ -4,7 +4,7 @@
 #include "Modifieres.h"
 #include "Trajectories.h"
 
-;
+
 template
 <
 	class ModifierPolicy,

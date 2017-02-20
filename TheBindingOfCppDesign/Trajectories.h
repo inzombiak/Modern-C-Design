@@ -28,6 +28,6 @@ public:
 	{
 		printf("Spawn in same direction  \n");
 	}
-}
+};
 
 #endif

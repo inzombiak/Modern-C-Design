@@ -98,6 +98,21 @@ namespace Utilities
 		CompileTimeChecker(...);
 	};
 	template<> struct CompileTimeChecker<false> { };
+
+	template <bool flag, typename T, typename U>
+	struct Select
+	{
+		typedef T Result;
+	};
+
+	template <typename T, typename U>
+	struct Select<false, T, U>
+	{
+		typedef U Result;
+	};
 }
 
+#define SUPERSUBCLASS(T, U)\
+		(Utilities::Conversion<const U*, const T*>::exists && \
+		!Utilities::Conversion<const T*, const void*>::sameType)
 #endif

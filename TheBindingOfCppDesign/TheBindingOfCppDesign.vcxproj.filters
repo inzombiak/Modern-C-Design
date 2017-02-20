@@ -45,12 +45,21 @@
     <ClInclude Include="Familiar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Typelists.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FamiliarFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Attacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FamiliarFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
