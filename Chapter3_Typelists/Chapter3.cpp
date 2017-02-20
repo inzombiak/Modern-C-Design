@@ -54,7 +54,6 @@ public:
 };
 const std::string SpherePhysicsComponent::name = "SpherePhysicsComponent";
 
-
 template <class T>
 class Handle
 {
@@ -62,39 +61,117 @@ public:
 	T value;
 };
 
-template<class T, class Base>
-class CollisionHandler : public Base
+namespace Working
 {
-public:
-	virtual void OnCollide(T& obj, int id)
+	template<class T>
+	class AbstractCollisionEvent
 	{
-		obj.Collided(id, Chapter2::Type2Type<T>());
-	}
-	virtual ~CollisionHandler() {}
-};
+	public:
+		virtual void Collision(int id, T& obj) = 0;
+		virtual ~AbstractCollisionEvent() {};
+	};
+
+
+	template <class T, class Base>
+	class CollisionEventImpl : public Base
+	{
+		typedef typename Base::ProductList BaseProductList;
+
+	protected:
+		typedef typename BaseProductList::Tail ProductList;
+
+	public:
+		typedef typename BaseProductList::Head AbstractProduct;
+		void Collision(int id, AbstractProduct& obj)
+		{
+			obj.Collided(id, Chapter2::Type2Type<AbstractProduct>());
+		}
+	};
+
+	template
+	<
+		class TList,
+		template <class> class Unit = AbstractCollisionEvent
+	>
+	class CollisionHandlerScatter : public HierarchyGenerators::GenScatterHierarchy<TList, Unit>
+	{
+	public:
+		typedef TList ProductList;
+
+		template<class O>
+		void OnCollide(int id, O& obj)
+		{
+			Unit<O>& unit = *this;
+			unit.Collision(id, obj);
+		}
+		virtual ~CollisionHandlerScatter() {}
+	};
+
+	template
+	<
+		class TList,
+		template <class, class> class Handler,
+		class AbstractHandler
+	>
+	class ConcreteCollisionHandler : public  HierarchyGenerators::GenLinearHierarchy<TList, Handler, AbstractHandler>
+	{
+
+	};
+}
+
+namespace Test
+{
+	template<class T>
+	class AbstractCollision
+	{
+	public:
+		virtual void Collision(int id, T& obj) = 0;
+		virtual ~AbstractCollision() {};
+	};
+
+	template <class T, class Base>
+	class CollisionEventImpl : public Base
+	{
+	public:
+		template<class O>
+		void Collision(int id, O& obj)
+		{
+			obj.Collided(id, Chapter2::Type2Type<O>());
+		}
+	};
+
+	template
+	<
+		class TList,
+		template <class, class> class Handler,
+		class AbstractHandler
+	>
+	class ConcreteCollisionHandler : public  HierarchyGenerators::GenLinearHierarchy<TList, Handler, AbstractHandler>
+	{
+
+	};
+}
 
 class Explode
 {
 public:
-	virtual void Collided(int id, Chapter2::Type2Type<Explode>)
+	void Collided(int id, Chapter2::Type2Type<Explode>)
 	{
 		std::cout << "Exploded!";
 	}
 };
-
 class Spawn
 {
 public:
-	virtual void Collided(int id, Chapter2::Type2Type<Spawn>)
+	void Collided(int id, Chapter2::Type2Type<Spawn>)
 	{
 		std::cout << "Spawned!";
 	}
 };
-
 class Heal
 {
 public:
-	virtual void Collided(int id, Chapter2::Type2Type<Heal>)
+	void Collided(int id, Chapter2::Type2Type<Heal>)
 	{
 		std::cout << "Heal!";
 	}
@@ -171,15 +248,30 @@ void Chapter3::Run()
 	HierarchyGenerators::Field<1>(bookHandler).value = 1;
 	HierarchyGenerators::Field<2>(bookHandler).value = "Book of Sin";
 	HierarchyGenerators::Field<3>(bookHandler).value = false;
-
+	
 	std::cout << "Book title: " << HierarchyGenerators::Field<2>(bookHandler).value << ", ID: " << HierarchyGenerators::Field<0>(bookHandler).value <<
 		", Edition:  " << HierarchyGenerators::Field<1>(bookHandler).value << ", is currently " << (HierarchyGenerators::Field<3>(bookHandler).value ? "in " : "not in ") << "inventory" << std::endl;
+	std::cout << std::endl;
 
 	typedef TYPELIST_3(Spawn, Explode, Heal) colliderTL;
-	typedef HierarchyGenerators::GenLinearHierarchy<colliderTL, CollisionHandler> Collider;
-	Collider collider;
 	Spawn s;
 	Heal h;
-	static_cast<CollisionHandler<Heal, EmptyType>*>(&collider)->OnCollide(h, 1);
-	std::cout << sizeof(Collider) << std::endl;
+	Explode e;
+	//This is based on the Loki implementation of an abstract factory. I don't like it.
+	std::cout << "Loki LinearHierarchy" << std::endl;
+	typedef Working::CollisionHandlerScatter<colliderTL> WCHS;
+	typedef Working::ConcreteCollisionHandler<colliderTL, Working::CollisionEventImpl, WCHS> WCCH;
+	WCCH wcch;
+	wcch.OnCollide(1, h);
+	wcch.OnCollide(1, e);
+	wcch.OnCollide(1, s);
+	std::cout << std::endl;
+
+	//My attempt at simplifying the Loki implementation
+	std::cout << "My LinearHierarchy" << std::endl;
+	typedef Test::ConcreteCollisionHandler<colliderTL, Test::CollisionEventImpl, EmptyType> TCCH;
+	TCCH tcch;
+	tcch.Collision(1, s);
+	tcch.Collision(1, e);
+	std::cout << std::endl;
 }

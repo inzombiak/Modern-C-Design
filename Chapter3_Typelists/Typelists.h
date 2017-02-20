@@ -366,45 +366,46 @@ namespace HierarchyGenerators
 	};
 
 	
-	 //Generate linear hierarchy
-	 template
-		 <
-			class TList,
-			template <class AtomicType, class Base> class Unit,
-			class Root = EmptyType
-		 >
-	 class GenLinearHierarchy;
+	//Generate linear hierarchy
+	template
+		<
+		class TList,
+		template <class AtomicType, class Base> class Unit,
+		class Root = EmptyType
+		>
+	class GenLinearHierarchy;
 
-	 template
-		 <
-			class Head,
-			class Tail,
-			template <class, class> class Unit,
-			class Root
-		 >
-	 class GenLinearHierarchy<TL::Typelist<Head, Tail>, Unit, Root>
-		 : public Unit< Head, GenLinearHierarchy<Tail, Unit, Root> >
-	 {
-	 };
+	template
+		<
+		class Head,
+		class Tail,
+		template <class, class> class Unit,
+		class Root
+		>
+	class GenLinearHierarchy<TL::Typelist<Head, Tail>, Unit, Root>
+		: public Unit< Head, GenLinearHierarchy<Tail, Unit, Root> >
+	{
+		
+	};
 
-	 template
-		 <
-			class T,
-			template <class, class> class Unit,
-			class Root
-		 >
-	 class GenLinearHierarchy<TL::Typelist<T, NullType>, Unit, Root>
-		 : public Unit<T, Root>
-	 {
-	 };
+	template
+		<
+		class T,
+		template <class, class> class Unit,
+		class Root
+		>
+	class GenLinearHierarchy<TL::Typelist<T, NullType>, Unit, Root>
+		: public Unit<T, Root>
+	{
+	};
 	 
-	 template
-		 <
-		 template <class, class> class Unit,
-	 class Root
-		 >
+	template
+	<
+	template <class, class> class Unit,
+	class Root
+	>
 	 class GenLinearHierarchy<NullType, Unit, Root>
-		 : public Root // is this better: Unit<NullType, Root> ?
+		 : public Root
 	 {
 	 };
 	 
