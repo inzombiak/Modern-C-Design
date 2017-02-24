@@ -28,9 +28,11 @@ public:
 		NonConstType;
 	enum { isConst = UnConst<T>::isConst };
 
-	static const int isElement = is_element<T>::value;
-	static const int isMelee = is_melee<T>::value;
-	static const int isProjectile = is_projectile<T>::value;
+	static const int isModifier		= is_modifier<T>::value;
+	static const int isTrajectory	= is_trajectory<T>::value;
+	static const int isAttack		= is_attack<T>::value;
+	static const int isMovement		= is_movement<T>::value;
+	static const int isCollision	= is_collision<T>::value;
 };
 
 #endif

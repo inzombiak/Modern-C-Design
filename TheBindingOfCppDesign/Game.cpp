@@ -1,6 +1,7 @@
 #include "Game.h"
 
 #include "Familiar.h"
+#include "Factories.h"
 #include <string>
 
 Game::Game()

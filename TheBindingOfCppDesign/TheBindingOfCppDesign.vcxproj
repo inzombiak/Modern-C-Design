@@ -81,6 +81,7 @@
     <ClInclude Include="Attacks.h" />
     <ClInclude Include="Collisions.h" />
     <ClInclude Include="CompileTimeChecker.h" />
+    <ClInclude Include="Factories.h" />
     <ClInclude Include="Familiar.h" />
     <ClInclude Include="FamiliarFactory.h" />
     <ClInclude Include="Game.h" />
