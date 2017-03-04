@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TheBindingOfCppDesign", "..
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter3_Typelists", "..\Chapter3_Typelists\Chapter3_Typelists.vcxproj", "{A2456AF4-DB7A-4779-A798-4EAF71B803EC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter4_SmallObjectAlloc", "..\Chapter4_SmallObjectAlloc\Chapter4_SmallObjectAlloc.vcxproj", "{15327B75-FC59-409F-A0BF-350B876C6623}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -45,6 +47,10 @@ Global
 		{A2456AF4-DB7A-4779-A798-4EAF71B803EC}.Debug|Win32.Build.0 = Debug|Win32
 		{A2456AF4-DB7A-4779-A798-4EAF71B803EC}.Release|Win32.ActiveCfg = Release|Win32
 		{A2456AF4-DB7A-4779-A798-4EAF71B803EC}.Release|Win32.Build.0 = Release|Win32
+		{15327B75-FC59-409F-A0BF-350B876C6623}.Debug|Win32.ActiveCfg = Debug|Win32
+		{15327B75-FC59-409F-A0BF-350B876C6623}.Debug|Win32.Build.0 = Debug|Win32
+		{15327B75-FC59-409F-A0BF-350B876C6623}.Release|Win32.ActiveCfg = Release|Win32
+		{15327B75-FC59-409F-A0BF-350B876C6623}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

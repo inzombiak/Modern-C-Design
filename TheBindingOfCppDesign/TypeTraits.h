@@ -1,6 +1,8 @@
 #ifndef TYPE_TRAITS_H
 #define TYPE_TRAITS_H
 
+#include "Utilities.h"
+
 template <typename T>
 class TypeTraits
 {
@@ -28,11 +30,11 @@ public:
 		NonConstType;
 	enum { isConst = UnConst<T>::isConst };
 
-	static const int isModifier		= is_modifier<T>::value;
-	static const int isTrajectory	= is_trajectory<T>::value;
-	static const int isAttack		= is_attack<T>::value;
-	static const int isMovement		= is_movement<T>::value;
-	static const int isCollision	= is_collision<T>::value;
+	static const bool isModifier		= is_modifier<T>::value;
+	static const bool isTrajectory		= is_trajectory<T>::value;
+	static const bool isAttack			= is_attack<T>::value;
+	static const bool isMovement		= is_movement<T>::value;
+	static const bool isCollision		= is_collision<T>::value;
 };
 
 #endif

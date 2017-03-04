@@ -7,13 +7,6 @@
 			(void) sizeof((Utilities::CompileTimeChecker<(expr) != 0> (ERROR_##msg())));\
 		}
 
-enum EntityTypes
-{
-	Player,
-	Wall,
-	Enemy
-};
-
 class NullType {};
 struct EmptyType {};
 
@@ -26,6 +19,13 @@ namespace GameDefs
 		Spawn = 1,
 		Collide = 2,
 		ShootAndCollide = 3,
+	};
+
+	enum EntityTypes
+	{
+		Player,
+		Wall,
+		Enemy
 	};
 
 	enum CollisionTypes
