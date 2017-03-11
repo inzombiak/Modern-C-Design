@@ -18,9 +18,15 @@
     <ClCompile Include="Chapter4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SmallObjAllocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chapter4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallObjAllocator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

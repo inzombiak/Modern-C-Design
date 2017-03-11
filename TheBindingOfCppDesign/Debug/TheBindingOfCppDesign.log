@@ -1,22 +1,21 @@
-﻿Build started 2/20/2017 7:37:06 PM.
+﻿Build started 3/11/2017 8:09:40 PM.
      1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\TheBindingOfCppDesign\TheBindingOfCppDesign.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Attacks.cpp FamiliarFactory.cpp Game.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FamiliarFactory.cpp Game.cpp
          Game.cpp
          Generating Code...
          Compiling...
          FamiliarFactory.cpp
          Generating Code...
-         Skipping... (no relevant changes detected)
-         Attacks.cpp
        Lib:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\TheBindingOfCppDesign.lib" /NOLOGO Debug\Attacks.obj
          Debug\FamiliarFactory.obj
          Debug\Game.obj
+     1>FamiliarFactory.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
      1>Attacks.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
          TheBindingOfCppDesign.vcxproj -> C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\TheBindingOfCppDesign.lib
      1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\TheBindingOfCppDesign\TheBindingOfCppDesign.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.94
+Time Elapsed 00:00:01.76

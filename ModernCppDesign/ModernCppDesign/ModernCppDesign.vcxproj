@@ -59,7 +59,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>Chapter1_Policies.lib;Chapter2_Techniques.lib;Chapter3_Typelists.lib;TheBindingOfCppDesign.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Chapter1_Policies.lib;Chapter2_Techniques.lib;Chapter3_Typelists.lib;Chapter4_SmallObjectAlloc.lib;TheBindingOfCppDesign.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>

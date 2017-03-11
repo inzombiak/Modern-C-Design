@@ -3,7 +3,7 @@
 
 namespace Chapter4
 {
-
+	void Run();
 }
 
 #endif
