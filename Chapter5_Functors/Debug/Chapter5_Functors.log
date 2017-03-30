@@ -1,0 +1,14 @@
+﻿Build started 3/23/2017 4:12:06 PM.
+     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter5_Functors\Chapter5_Functors.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Chapter5.cpp
+         Chapter5.cpp
+     1>c:\users\user\documents\github\modern c++ design\chapter5_functors\chapter5.cpp(88): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\Chapter5_Functors.lib" /NOLOGO Debug\Chapter5.obj
+         Chapter5_Functors.vcxproj -> C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\Chapter5_Functors.lib
+     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter5_Functors\Chapter5_Functors.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.48

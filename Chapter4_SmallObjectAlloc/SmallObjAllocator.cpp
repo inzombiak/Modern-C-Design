@@ -56,19 +56,19 @@ bool Chunk::IsFilled() const
 	return m_blocksAvailable == 0;
 }
 
-void FixedAllocator::Initalize(size_t blockSize, size_t pageSize)
+void FixedAllocator::Initalize(size_t blockSize, size_t chunkSize)
 {
 	assert(blockSize > 0);
-	assert(pageSize > blockSize);
+	assert(chunkSize > blockSize);
 	m_blockSize = blockSize;
 
-	size_t numBlocks = pageSize / blockSize;
-	/*if (numBlocks > MaxObjectsPerChunk_) 
-		numBlocks = MaxObjectsPerChunk_;
-	else if (numBlocks < MinObjectsPerChunk_)
-		numBlocks = MinObjectsPerChunk_;*/
+	size_t numBlocks = chunkSize / blockSize;
+	if (numBlocks > m_maxObjectsPerChunk)
+		numBlocks = m_maxObjectsPerChunk;
+	else if (numBlocks < m_minObjectsPerChunk)
+		numBlocks = m_minObjectsPerChunk;
 	
-	 m_numBlocks = static_cast<unsigned char>(numBlocks);
+	m_numBlocks = static_cast<unsigned char>(numBlocks);
 	assert(m_numBlocks == numBlocks);
 }
 
@@ -307,7 +307,7 @@ size_t GetOffset(size_t numBytes, size_t alignment)
 
 SmallObjAllocator::SmallObjAllocator(size_t pageSize, size_t maxObjectSize, size_t objectAlignSize) : m_maxSmallObjectSize(maxObjectSize), m_objectAlignSize(objectAlignSize)
 {
-	assert(objectAlignSize == 0);
+	assert(objectAlignSize != 0);
 	size_t allocCount = GetOffset(maxObjectSize, objectAlignSize); 
 	
 	m_pool.resize(allocCount); 
@@ -392,6 +392,7 @@ void SmallObjAllocator::Deallocate(void* p)
 		if (chunk != NULL)
 		{
 			pAllocator = &m_pool[i];
+			break;
 		}
 	}
 
@@ -411,6 +412,7 @@ size_t SmallObjAllocator::GetMaxObjectSize() const
 {
 	return m_maxSmallObjectSize;
 }
+
 size_t SmallObjAllocator::GetAlignment() const
 {
 	return m_objectAlignSize;
@@ -436,3 +438,9 @@ bool SmallObjAllocator::TrimExcessMemory()
 
 	return found;
 }
+
+template<size_t cs, size_t os, size_t as>
+SmallObjAllocator SmallObjectBase<cs, os, as>::m_objAllocator(cs, os, as);
+
+template<>
+SmallObjAllocator SmallObjectBase<>::m_objAllocator = SmallObjAllocator(DEFAULT_CHUNK_SIZE, MAX_SMALL_OBJECT_SIZE, DEFAULT_OBJECT_ALIGNMENT);

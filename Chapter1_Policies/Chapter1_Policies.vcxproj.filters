@@ -18,9 +18,12 @@
     <ClInclude Include="Policies.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Chapter1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Policies.cpp">
+    <ClCompile Include="Chapter1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
