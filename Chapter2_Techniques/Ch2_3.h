@@ -2,11 +2,11 @@
 #define CH_2_3_h
 
 /*
-2.3. Local Classes
-A class defined locally.
-Book says this will be valuable later, so check later chapters for what this is good for
+	2.3. Local Classes
+	A class defined locally.
+	Book says this will be valuable later, so check later chapters for what this is good for
 
-TODO: Add reference
+	TODO: Add reference
 */
 
 namespace Chapter2

@@ -4,23 +4,23 @@
 #include <string>
 
 /*
-I was playing Binding of Isaac at the time on iOS and thought
-policies may be an interesting way to implement familiars
-This may not be the best way to solve the problem, but its an interesting way to test policy based design
+	I was playing Binding of Isaac at the time on iOS and thought
+	policies may be an interesting way to implement familiars
+	This may not be the best way to solve the problem, but its an interesting way to test policy based design
 */
 
 
 /*
 Familiar Policies:
-AttackPolicy	- governs how "attacks" work, be it spawning something or shooting tears
-CollisionPolicy - governs how to deal with collisions
-Movement Policy	- governs how the familiar moves e.g. follow Isaac, random etc.
+	AttackPolicy	- governs how "attacks" work, be it spawning something or shooting tears
+	CollisionPolicy - governs how to deal with collisions
+	Movement Policy	- governs how the familiar moves e.g. follow Isaac, random etc.
 */
 
 /*
 Attack Policies:
-ModifierPolicy		- governs what modifier (if any) are applied on collision with enemy
-TrajectoryPolicy	- governs distance, direction etc.
+	ModifierPolicy		- governs what modifier (if any) are applied on collision with enemy
+	TrajectoryPolicy	- governs distance, direction etc.
 */
 
 namespace Policies
