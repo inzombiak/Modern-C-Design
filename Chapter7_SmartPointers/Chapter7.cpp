@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-void Run()
+void Chapter7::Run()
 {
-	std::cout << "cppreference.com has everythign you need on shared_ptrs" << std::endl;
+	std::cout << "cppreference.com has everything you need on shared_ptrs" << std::endl;
 }

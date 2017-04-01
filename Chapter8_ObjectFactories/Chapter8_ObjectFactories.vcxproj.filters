@@ -24,12 +24,18 @@
     <ClInclude Include="Factories.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="TypeInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter8.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Factories.cpp">
+    <ClCompile Include="Singleton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -72,7 +72,7 @@ namespace Chapter2
 			Complex code that chooses appropriate text
 			based on the function callback ID provided in arg
 			*/
-			std::string text = "Guess you're not completely illiterate, looks like you can read " + std::to_string(arg) + " words";
+			std::string text = "Guess you're not completely illiterate, looks like you can understand " + std::to_string(arg) + " words";
 
 			return new ReadableBook(arg, text);
 		}

@@ -1,19 +1,17 @@
-﻿Build started 3/14/2017 4:34:29 PM.
-     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter4_SmallObjectAlloc\Chapter4_SmallObjectAlloc.vcxproj" on node 3 (Build target(s)).
+﻿Build started 4/1/2017 1:30:39 PM.
+     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter4_SmallObjectAlloc\Chapter4_SmallObjectAlloc.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Chapter4.cpp SmallObjAllocator.cpp
          SmallObjAllocator.cpp
      1>c:\users\user\documents\github\modern c++ design\chapter4_smallobjectalloc\smallobjallocator.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-         Generating Code...
-         Compiling...
          Chapter4.cpp
          Generating Code...
        Lib:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\Chapter4_SmallObjectAlloc.lib" /NOLOGO Debug\Chapter4.obj
          Debug\SmallObjAllocator.obj
          Chapter4_SmallObjectAlloc.vcxproj -> C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\Chapter4_SmallObjectAlloc.lib
-     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter4_SmallObjectAlloc\Chapter4_SmallObjectAlloc.vcxproj" (Build target(s)).
+     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter4_SmallObjectAlloc\Chapter4_SmallObjectAlloc.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.21
+Time Elapsed 00:00:00.86

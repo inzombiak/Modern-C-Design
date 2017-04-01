@@ -2,9 +2,9 @@
 #define TYPELISTS_H
 
 //Uses 2.6 and 2.7
-#include "Ch2_5.h"
-#include "Ch2_6.h"
-#include "Ch2_7.h"
+#include "../Chapter2_Techniques/Ch2_5.h"
+#include "../Chapter2_Techniques/Ch2_6.h"
+#include "../Chapter2_Techniques/Ch2_7.h"
 
 #include "TypeTraits.h"
 

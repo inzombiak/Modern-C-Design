@@ -10,5 +10,5 @@
 
 void Chapter6::Run()
 {
-		
+	std::cout << "SEE CHAPTER 8 FOR EXAMPLE" << std::endl;
 }

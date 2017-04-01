@@ -7,8 +7,10 @@
 #include <memory>
 #include <assert.h>
 /*
-The book goes up to 2 parameters per functor.
-I'm going to double that offer and do 4.
+	The book goes up to 2 parameters per functor.
+	I'm going to double that offer and do 4.
+
+	Note: A lot of the stuff here can be replaced with std::function and lambdas
 */
 
 template <typename R>

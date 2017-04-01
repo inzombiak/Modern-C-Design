@@ -1,0 +1,17 @@
+﻿Build started 4/1/2017 1:50:44 PM.
+     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter8_ObjectFactories\Chapter8_ObjectFactories.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Chapter8.cpp Singleton.cpp
+         Chapter8.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         Singleton.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\Chapter8_ObjectFactories.lib" /NOLOGO Debug\Chapter8.obj
+         Debug\Singleton.obj
+         Chapter8_ObjectFactories.vcxproj -> C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\Chapter8_ObjectFactories.lib
+     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter8_ObjectFactories\Chapter8_ObjectFactories.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.73

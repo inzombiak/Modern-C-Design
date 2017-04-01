@@ -111,7 +111,7 @@ void Chapter5::Run()
 	mult100(5);
 	mult100(19);
 
-	std::cout << "Chaining multInts and addInts to mult and add to numbers \"MultInts\" to 100" << std::endl;
+	std::cout << "Chaining multInts and addInts to mult and add two numbers \"MultInts\" to 100" << std::endl;
 	Functor<int, TYPELIST_2(int, int)> multAndAdd(Chain(multInts, addInt));
 	//int x = multAndAdd(20, 5);
 }
