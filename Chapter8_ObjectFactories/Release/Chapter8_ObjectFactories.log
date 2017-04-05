@@ -1,14 +1,15 @@
-﻿Build started 4/1/2017 2:42:11 PM.
-     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter8_ObjectFactories\Chapter8_ObjectFactories.vcxproj" on node 2 (Build target(s)).
+﻿Build started 4/5/2017 8:34:34 PM.
+     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter8_ObjectFactories\Chapter8_ObjectFactories.vcxproj" on node 5 (Rebuild target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Chapter8.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Chapter8.cpp Singleton.cpp
          Chapter8.cpp
+         Singleton.cpp
        Lib:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\Chapter8_ObjectFactories.lib" /NOLOGO /LTCG Release\Chapter8.obj
          Release\Singleton.obj
          Chapter8_ObjectFactories.vcxproj -> C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\Chapter8_ObjectFactories.lib
-     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter8_ObjectFactories\Chapter8_ObjectFactories.vcxproj" (Build target(s)).
+     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter8_ObjectFactories\Chapter8_ObjectFactories.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.55
+Time Elapsed 00:00:01.09

@@ -1,5 +1,5 @@
-﻿Build started 4/1/2017 1:52:21 PM.
-     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter2_Techniques\Chapter2_Techniques.vcxproj" on node 3 (Build target(s)).
+﻿Build started 4/5/2017 8:34:32 PM.
+     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter2_Techniques\Chapter2_Techniques.vcxproj" on node 3 (Rebuild target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Ch2_1.cpp Ch2_10.cpp Ch2_3.cpp Ch2_4.cpp Ch2_5.cpp Ch2_6.cpp Ch2_7.cpp Chapter2.cpp
          Ch2_1.cpp
@@ -21,8 +21,8 @@
          Release\Ch2_7.obj
          Release\Chapter2.obj
          Chapter2_Techniques.vcxproj -> C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\Chapter2_Techniques.lib
-     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter2_Techniques\Chapter2_Techniques.vcxproj" (Build target(s)).
+     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter2_Techniques\Chapter2_Techniques.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.81
+Time Elapsed 00:00:03.30

@@ -317,6 +317,191 @@ namespace TL
 	
 }
 
+namespace HierarchyGenerators
+{
+	namespace Helper
+	{
+		//Allows inheriting from same type twice
+		//So you cna have 2 int fields
+		template<class, class>
+		struct ScatterHierarchyTag;
+	}
+
+	//Generates scattered heiratchies
+	template<class TList, template<class> class Unit>
+	class GenScatterHierarchy;
+
+	template<class Head, class Tail, template<class> class Unit>
+	class GenScatterHierarchy<TL::Typelist<Head, Tail>, Unit > :
+		public GenScatterHierarchy<Helper::ScatterHierarchyTag<Head, Tail>, Unit>,
+		public GenScatterHierarchy<Tail, Unit>
+	{
+	public:
+		typedef typename TL::Typelist<Head, Tail> TList;
+		//Make sure LeftBase is unique, in case of double inheritence
+		typedef typename GenScatterHierarchy<Helper::ScatterHierarchyTag<Head, Tail>, Unit> LeftBase;
+		typedef typename GenScatterHierarchy<Tail, Unit> RightBase;
+		template <typename T> struct Rebind
+		{
+			typedef Unit<T> Result;
+		};
+	};
+
+	// In the middle *unique* class that resolve possible ambiguity
+	template <class Head, class Tail, template <class> class Unit>
+	class GenScatterHierarchy<Helper::ScatterHierarchyTag<Head, Tail>, Unit>
+		: public GenScatterHierarchy<Head, Unit>
+	{
+	};
+
+	//If the arguement passed was not a TL
+	template<class AtomicType, template <class> class Unit>
+	class GenScatterHierarchy : public Unit<AtomicType>
+	{
+		typedef typename Unit<AtomicType> LeftBase;
+		template <typename T> struct Rebind
+		{
+			typedef Unit<T> Result;
+		};
+	};
+
+	//If the arguement passed was not a TL
+	template<template <class> class Unit>
+	class GenScatterHierarchy<NullType, Unit>
+	{
+		template <typename T> struct Rebind
+		{
+			typedef Unit<T> Result;
+		};
+	};
+
+
+	//Generate linear hierarchy
+	template
+		<
+			class TList,
+				template <class AtomicType, class Base> class Unit,
+			class Root = EmptyType
+		>
+	class GenLinearHierarchy;
+
+	template
+		<
+			class Head,
+			class Tail,
+				template <class, class> class Unit,
+			class Root
+		>
+	class GenLinearHierarchy<TL::Typelist<Head, Tail>, Unit, Root>
+		: public Unit< Head, GenLinearHierarchy<Tail, Unit, Root> >
+	{
+
+	};
+
+	template
+		<
+			class T,
+				template <class, class> class Unit,
+			class Root
+		>
+	class GenLinearHierarchy<TL::Typelist<T, NullType>, Unit, Root>
+		: public Unit<T, Root>
+	{
+	};
+
+	template
+		<
+		template <class, class> class Unit,
+	class Root
+		>
+	class GenLinearHierarchy<NullType, Unit, Root>
+		: public Root
+	{
+	};
+
+	template <class T, class H>
+	typename H::template Rebind<T>::Result& Field(H& obj)
+	{
+		return obj;
+	}
+	template <class T, class H>
+	const typename H::template Rebind<T>::Result& Field(const H& obj)
+	{
+		return obj;
+	}
+
+	template <class H, unsigned int i> struct FieldHelper;
+	template <class H>
+	struct FieldHelper<H, 0>
+	{
+		typedef typename H::TList::Head ElementType;
+		typedef typename H::template Rebind<ElementType>::Result UnitType;
+
+		enum
+		{
+			isTuple = Chapter2::Conversion<UnitType, std::tuple<ElementType> >::sameType,
+			isConst = TypeTraits<H>::isConst
+		};
+
+		typedef const typename H::LeftBase ConstLeftBase;
+		typedef typename Chapter2::Select<isConst, ConstLeftBase,
+			typename H::LeftBase>::Result LeftBase;
+
+		typedef typename Chapter2::Select<isTuple, ElementType,
+			UnitType>::Result UnqualifiedResultType;
+
+		typedef typename Chapter2::Select<isConst, const UnqualifiedResultType,
+			UnqualifiedResultType>::Result ResultType;
+
+		static ResultType& Do(H& obj)
+		{
+			LeftBase& leftBase = obj;
+			return leftBase;
+		}
+	};
+
+	template <class H, unsigned int i>
+	struct FieldHelper
+	{
+		typedef typename TL::TypeAt<typename H::TList, i>::Result ElementType;
+		typedef typename H::template Rebind<ElementType>::Result UnitType;
+
+		enum
+		{
+			isTuple = Chapter2::Conversion<UnitType, std::tuple<ElementType> >::sameType,
+			isConst = TypeTraits<H>::isConst
+		};
+
+		typedef const typename H::RightBase ConstRightBase;
+
+		typedef typename Chapter2::Select<isConst, ConstRightBase,
+			typename H::RightBase>::Result RightBase;
+
+		typedef typename Chapter2::Select<isTuple, ElementType,
+			UnitType>::Result UnqualifiedResultType;
+
+		typedef typename Chapter2::Select<isConst, const UnqualifiedResultType,
+			UnqualifiedResultType>::Result ResultType;
+
+		static ResultType& Do(H& obj)
+		{
+			RightBase& rightBase = obj;
+			return FieldHelper<RightBase, i - 1>::Do(rightBase);
+		}
+	};
+
+	//Returns field by index
+	template <int i, class H>
+	typename FieldHelper<H, i>::ResultType &
+		Field(H& obj)
+	{
+		return FieldHelper<H, i>::Do(obj);
+	}
+
+
+};
+
+
 //3.3 Linearizing Typelist Creation
 //Some defines to help with creating different sized typelists
 #define TYPELIST_1(T1)					TL::Typelist<T1, NullType>
