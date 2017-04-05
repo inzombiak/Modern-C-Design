@@ -6,6 +6,8 @@ the behavior of familiar. This led to me deciding to use the knowledge from the 
 
 Currently I'm going through the book and once I'm done I'll start work on the game.
 
+Note: You may notice code copy pasted all over the place. I did this because some chapters required me to edit the code and I didn't want to break previous examples. I'll try to go back an unify them once I'm done.
+
 ## Directions
 The main solution can be found in the "ModernCppDesign" folder, open it and compile
 
