@@ -1,4 +1,4 @@
-# Modern-C-Design
+# Modern C++ Design
 Examples for each chapter from "Modern C++ Design" by Andrei Alexandrescu
 
 I picked up the book while I was rediscovering "The Binding of Isaac" and I decided to use policies from the first chapter to implement
@@ -14,3 +14,7 @@ The main solution can be found in the "ModernCppDesign" folder, open it and comp
 ### TODO
 * Write explanations
 * Game
+
+## References
+ * Loki Library - [sourceforge.net](http://loki-lib.sourceforge.net/)
+ * Book - Alexandrescu, Andrei. Modern C++ design: generic programming and design patterns applied. Addison-Wesley, 2001.
