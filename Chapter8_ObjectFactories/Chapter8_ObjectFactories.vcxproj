@@ -14,6 +14,7 @@
     <ProjectGuid>{81BFFB07-648B-4189-BE7C-DB613DDD01C8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Chapter8_ObjectFactories</RootNamespace>
+    <ProjectName>Chapter08_ObjectFactories</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

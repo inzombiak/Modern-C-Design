@@ -14,6 +14,7 @@
     <ProjectGuid>{A2456AF4-DB7A-4779-A798-4EAF71B803EC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Chapter3_Typelists</RootNamespace>
+    <ProjectName>Chapter03_Typelists</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

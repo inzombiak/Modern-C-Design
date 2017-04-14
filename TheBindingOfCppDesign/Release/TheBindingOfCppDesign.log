@@ -1,5 +1,5 @@
-﻿Build started 4/5/2017 8:34:13 PM.
-     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\TheBindingOfCppDesign\TheBindingOfCppDesign.vcxproj" on node 3 (Rebuild target(s)).
+﻿Build started 4/11/2017 12:11:19 PM.
+     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\TheBindingOfCppDesign\TheBindingOfCppDesign.vcxproj" on node 4 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Attacks.cpp FamiliarFactory.cpp Game.cpp
          Attacks.cpp
@@ -11,8 +11,8 @@
          Release\Game.obj
      1>MSVCRT.lib(crtexe.obj) : error LNK2001: unresolved external symbol _main
      1>C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\TheBindingOfCppDesign.exe : fatal error LNK1120: 1 unresolved externals
-     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\TheBindingOfCppDesign\TheBindingOfCppDesign.vcxproj" (Rebuild target(s)) -- FAILED.
+     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\TheBindingOfCppDesign\TheBindingOfCppDesign.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:03.37
+Time Elapsed 00:00:01.36

@@ -1,16 +1,17 @@
-﻿Build started 4/5/2017 8:34:32 PM.
-     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter4_SmallObjectAlloc\Chapter4_SmallObjectAlloc.vcxproj" on node 5 (Rebuild target(s)).
+﻿Build started 4/11/2017 12:11:17 PM.
+     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter4_SmallObjectAlloc\Chapter4_SmallObjectAlloc.vcxproj" on node 5 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (Chapter4_SmallObjectAlloc.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Chapter4.cpp SmallObjAllocator.cpp
          Chapter4.cpp
          SmallObjAllocator.cpp
      1>SmallObjAllocator.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
        Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\Chapter4_SmallObjectAlloc.lib" /NOLOGO /LTCG Release\Chapter4.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\Chapter04_SmallObjectAlloc.lib" /NOLOGO /LTCG Release\Chapter4.obj
          Release\SmallObjAllocator.obj
-         Chapter4_SmallObjectAlloc.vcxproj -> C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\Chapter4_SmallObjectAlloc.lib
-     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter4_SmallObjectAlloc\Chapter4_SmallObjectAlloc.vcxproj" (Rebuild target(s)).
+         Chapter4_SmallObjectAlloc.vcxproj -> C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\Chapter04_SmallObjectAlloc.lib
+     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter4_SmallObjectAlloc\Chapter4_SmallObjectAlloc.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.40
+Time Elapsed 00:00:00.97

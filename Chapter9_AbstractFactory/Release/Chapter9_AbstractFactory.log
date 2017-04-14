@@ -1,13 +1,14 @@
-﻿Build started 4/5/2017 8:34:35 PM.
-     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter9_AbstractFactory\Chapter9_AbstractFactory.vcxproj" on node 2 (Rebuild target(s)).
+﻿Build started 4/11/2017 12:11:19 PM.
+     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter9_AbstractFactory\Chapter9_AbstractFactory.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (Chapter9_AbstractFactory.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Chapter9.cpp
          Chapter9.cpp
        Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\Chapter9_AbstractFactory.lib" /NOLOGO /LTCG Release\Chapter9.obj
-         Chapter9_AbstractFactory.vcxproj -> C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\Chapter9_AbstractFactory.lib
-     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter9_AbstractFactory\Chapter9_AbstractFactory.vcxproj" (Rebuild target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\Chapter09_AbstractFactory.lib" /NOLOGO /LTCG Release\Chapter9.obj
+         Chapter9_AbstractFactory.vcxproj -> C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\Chapter09_AbstractFactory.lib
+     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter9_AbstractFactory\Chapter9_AbstractFactory.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.55
+Time Elapsed 00:00:01.12

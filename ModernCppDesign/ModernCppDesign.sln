@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter1_Policies", "..\Chapter1_Policies\Chapter1_Policies.vcxproj", "{887DAEE7-22A8-42F6-A5C1-178B2A877AE4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter01_Policies", "..\Chapter1_Policies\Chapter1_Policies.vcxproj", "{887DAEE7-22A8-42F6-A5C1-178B2A877AE4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter2_Techniques", "..\Chapter2_Techniques\Chapter2_Techniques.vcxproj", "{CA385AAE-005D-478F-8CA9-9A8C5F4431F7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter02_Techniques", "..\Chapter2_Techniques\Chapter2_Techniques.vcxproj", "{CA385AAE-005D-478F-8CA9-9A8C5F4431F7}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModernCppDesign", "ModernCppDesign\ModernCppDesign.vcxproj", "{2C69BDD1-45D5-46E9-90D3-8DC4D525EBAC}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -18,23 +18,26 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModernCppDesign", "ModernCp
 		{887DAEE7-22A8-42F6-A5C1-178B2A877AE4} = {887DAEE7-22A8-42F6-A5C1-178B2A877AE4}
 		{5F42F2F0-3B09-482F-BCF1-4F1CC001B209} = {5F42F2F0-3B09-482F-BCF1-4F1CC001B209}
 		{A2456AF4-DB7A-4779-A798-4EAF71B803EC} = {A2456AF4-DB7A-4779-A798-4EAF71B803EC}
+		{C2ABF9F8-7402-45C0-A088-74B065A7D87A} = {C2ABF9F8-7402-45C0-A088-74B065A7D87A}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TheBindingOfCppDesign", "..\TheBindingOfCppDesign\TheBindingOfCppDesign.vcxproj", "{F9228A3D-3B72-40D5-941A-56AEBFC493E4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter3_Typelists", "..\Chapter3_Typelists\Chapter3_Typelists.vcxproj", "{A2456AF4-DB7A-4779-A798-4EAF71B803EC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter03_Typelists", "..\Chapter3_Typelists\Chapter3_Typelists.vcxproj", "{A2456AF4-DB7A-4779-A798-4EAF71B803EC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter4_SmallObjectAlloc", "..\Chapter4_SmallObjectAlloc\Chapter4_SmallObjectAlloc.vcxproj", "{15327B75-FC59-409F-A0BF-350B876C6623}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter04_SmallObjectAlloc", "..\Chapter4_SmallObjectAlloc\Chapter4_SmallObjectAlloc.vcxproj", "{15327B75-FC59-409F-A0BF-350B876C6623}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter5_Functors", "..\Chapter5_Functors\Chapter5_Functors.vcxproj", "{5F42F2F0-3B09-482F-BCF1-4F1CC001B209}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter05_Functors", "..\Chapter5_Functors\Chapter5_Functors.vcxproj", "{5F42F2F0-3B09-482F-BCF1-4F1CC001B209}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter7_SmartPointers", "..\Chapter7_SmartPointers\Chapter7_SmartPointers.vcxproj", "{D487F57E-08F3-4261-819C-16DEE2C70E4A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter07_SmartPointers", "..\Chapter7_SmartPointers\Chapter7_SmartPointers.vcxproj", "{D487F57E-08F3-4261-819C-16DEE2C70E4A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter6_Singleton", "..\Chapter6_Singleton\Chapter6_Singleton.vcxproj", "{B11F7729-F975-4F31-A1C6-1A97BE4D54A1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter06_Singleton", "..\Chapter6_Singleton\Chapter6_Singleton.vcxproj", "{B11F7729-F975-4F31-A1C6-1A97BE4D54A1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter8_ObjectFactories", "..\Chapter8_ObjectFactories\Chapter8_ObjectFactories.vcxproj", "{81BFFB07-648B-4189-BE7C-DB613DDD01C8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter08_ObjectFactories", "..\Chapter8_ObjectFactories\Chapter8_ObjectFactories.vcxproj", "{81BFFB07-648B-4189-BE7C-DB613DDD01C8}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter9_AbstractFactory", "..\Chapter9_AbstractFactory\Chapter9_AbstractFactory.vcxproj", "{07AE9C40-1D39-4DAC-8215-DCDD2309AAF5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter09_AbstractFactory", "..\Chapter9_AbstractFactory\Chapter9_AbstractFactory.vcxproj", "{07AE9C40-1D39-4DAC-8215-DCDD2309AAF5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter10_Visitor", "..\Chapter10_Visitor\Chapter10_Visitor.vcxproj", "{C2ABF9F8-7402-45C0-A088-74B065A7D87A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -134,6 +137,14 @@ Global
 		{07AE9C40-1D39-4DAC-8215-DCDD2309AAF5}.Release|Win32.ActiveCfg = Release|Win32
 		{07AE9C40-1D39-4DAC-8215-DCDD2309AAF5}.Release|Win32.Build.0 = Release|Win32
 		{07AE9C40-1D39-4DAC-8215-DCDD2309AAF5}.Release|x64.ActiveCfg = Release|Win32
+		{C2ABF9F8-7402-45C0-A088-74B065A7D87A}.Debug|ARM.ActiveCfg = Debug|Win32
+		{C2ABF9F8-7402-45C0-A088-74B065A7D87A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C2ABF9F8-7402-45C0-A088-74B065A7D87A}.Debug|Win32.Build.0 = Debug|Win32
+		{C2ABF9F8-7402-45C0-A088-74B065A7D87A}.Debug|x64.ActiveCfg = Debug|Win32
+		{C2ABF9F8-7402-45C0-A088-74B065A7D87A}.Release|ARM.ActiveCfg = Release|Win32
+		{C2ABF9F8-7402-45C0-A088-74B065A7D87A}.Release|Win32.ActiveCfg = Release|Win32
+		{C2ABF9F8-7402-45C0-A088-74B065A7D87A}.Release|Win32.Build.0 = Release|Win32
+		{C2ABF9F8-7402-45C0-A088-74B065A7D87A}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

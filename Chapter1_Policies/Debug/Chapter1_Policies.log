@@ -1,9 +1,14 @@
-﻿Build started 4/5/2017 5:54:11 PM.
-     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter1_Policies\Chapter1_Policies.vcxproj" on node 2 (Build target(s)).
-     1>Lib:
-         Chapter1_Policies.vcxproj -> C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\Chapter1_Policies.lib
-     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter1_Policies\Chapter1_Policies.vcxproj" (Build target(s)).
+﻿Build started 4/14/2017 4:55:12 PM.
+     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter1_Policies\Chapter1_Policies.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Chapter1_Policies.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Chapter1.cpp
+         Chapter1.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\Chapter01_Policies.lib" /NOLOGO Debug\Chapter1.obj
+         Chapter1_Policies.vcxproj -> C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\Chapter01_Policies.lib
+     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter1_Policies\Chapter1_Policies.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.03
+Time Elapsed 00:00:00.68

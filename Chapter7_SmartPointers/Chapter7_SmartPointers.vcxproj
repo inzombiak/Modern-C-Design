@@ -14,6 +14,7 @@
     <ProjectGuid>{D487F57E-08F3-4261-819C-16DEE2C70E4A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Chapter7_SmartPointers</RootNamespace>
+    <ProjectName>Chapter07_SmartPointers</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

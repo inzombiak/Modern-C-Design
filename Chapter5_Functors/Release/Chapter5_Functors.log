@@ -1,14 +1,15 @@
-﻿Build started 4/5/2017 8:34:33 PM.
-     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter5_Functors\Chapter5_Functors.vcxproj" on node 2 (Rebuild target(s)).
+﻿Build started 4/11/2017 12:11:18 PM.
+     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter5_Functors\Chapter5_Functors.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (Chapter5_Functors.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Chapter5.cpp
          Chapter5.cpp
      1>Chapter5.cpp(88): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
        Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\Chapter5_Functors.lib" /NOLOGO /LTCG Release\Chapter5.obj
-         Chapter5_Functors.vcxproj -> C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\Chapter5_Functors.lib
-     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter5_Functors\Chapter5_Functors.vcxproj" (Rebuild target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\Chapter05_Functors.lib" /NOLOGO /LTCG Release\Chapter5.obj
+         Chapter5_Functors.vcxproj -> C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\Chapter05_Functors.lib
+     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter5_Functors\Chapter5_Functors.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.73
+Time Elapsed 00:00:00.77

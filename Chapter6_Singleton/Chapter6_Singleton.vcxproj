@@ -14,6 +14,7 @@
     <ProjectGuid>{B11F7729-F975-4F31-A1C6-1A97BE4D54A1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Chapter6_Singleton</RootNamespace>
+    <ProjectName>Chapter06_Singleton</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
