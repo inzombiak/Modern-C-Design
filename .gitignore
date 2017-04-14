@@ -77,3 +77,4 @@ ipch/
 *.vsp
 *.vspx
 *.sap
+*.tlog
