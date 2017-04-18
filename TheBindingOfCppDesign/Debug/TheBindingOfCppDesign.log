@@ -1,5 +1,5 @@
-﻿Build started 4/1/2017 1:30:41 PM.
-     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\TheBindingOfCppDesign\TheBindingOfCppDesign.vcxproj" on node 2 (Rebuild target(s)).
+﻿Build started 4/18/2017 3:45:15 PM.
+     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\TheBindingOfCppDesign\TheBindingOfCppDesign.vcxproj" on node 5 (Rebuild target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Attacks.cpp FamiliarFactory.cpp Game.cpp
          Game.cpp
@@ -17,4 +17,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.00
+Time Elapsed 00:00:01.05

@@ -1,4 +1,4 @@
-﻿Build started 4/14/2017 4:55:12 PM.
+﻿Build started 4/18/2017 3:45:11 PM.
      1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter2_Techniques\Chapter2_Techniques.vcxproj" on node 3 (Rebuild target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Chapter2_Techniques.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
@@ -27,4 +27,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.67
+Time Elapsed 00:00:03.48

@@ -13,8 +13,6 @@ namespace Chapter10
 
 	typedef CyclicVisitor<void, TYPELIST_3(BaseElement, Inventory, QuestLog)> AVisitor;
 
-	
-
 	class BaseElement
 	{
 	public:

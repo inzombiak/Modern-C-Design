@@ -2,9 +2,9 @@
 #define CH_10_H
 
 /*
-Chapter 10. Visitor
+	Chapter 10. Visitor
 
-Generic implementaiton of Visitor pattern
+	Generic implementaiton of Visitor pattern
 */
 
 namespace Chapter10

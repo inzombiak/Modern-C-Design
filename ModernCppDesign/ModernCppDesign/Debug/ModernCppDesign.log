@@ -1,10 +1,13 @@
-﻿Build started 4/14/2017 4:58:14 PM.
-     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\ModernCppDesign\ModernCppDesign.vcxproj" on node 2 (Build target(s)).
-     1>Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\ModernCppDesign.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug" Chapter01_Policies.lib Chapter02_Techniques.lib Chapter03_Typelists.lib Chapter04_SmallObjectAlloc.lib Chapter05_Functors.lib Chapter06_Singleton.lib Chapter07_SmartPointers.lib Chapter08_ObjectFactories.lib Chapter09_AbstractFactory.lib Chapter10_Visitor.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\ModernCppDesign.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\ModernCppDesign.lib" /MACHINE:X86 Debug\main.obj
+﻿Build started 4/18/2017 3:45:16 PM.
+     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\ModernCppDesign\ModernCppDesign.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter1_Policies" /I"C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter2_Techniques" /I"C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter3_Typelists" /I"C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter4_SmallObjectAlloc" /I"C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter5_Functors" /I"C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter6_Singleton" /I"C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter7_SmartPointers" /I"C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter8_ObjectFactories" /I"C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter9_AbstractFactory" /I"C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter10_Visitor" /I"C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter11_Multimethods" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\ModernCppDesign.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug" Chapter01_Policies.lib Chapter02_Techniques.lib Chapter03_Typelists.lib Chapter04_SmallObjectAlloc.lib Chapter05_Functors.lib Chapter06_Singleton.lib Chapter07_SmartPointers.lib Chapter08_ObjectFactories.lib Chapter09_AbstractFactory.lib Chapter10_Visitor.lib Chapter11_Multimethods.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\ModernCppDesign.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\ModernCppDesign.lib" /MACHINE:X86 Debug\main.obj
          ModernCppDesign.vcxproj -> C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\ModernCppDesign.exe
-     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\ModernCppDesign\ModernCppDesign.vcxproj" (Build target(s)).
+     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\ModernCppDesign\ModernCppDesign.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.33
+Time Elapsed 00:00:00.83

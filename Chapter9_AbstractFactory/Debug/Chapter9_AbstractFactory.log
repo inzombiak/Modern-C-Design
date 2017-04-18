@@ -1,4 +1,4 @@
-﻿Build started 4/14/2017 4:55:14 PM.
+﻿Build started 4/18/2017 3:45:14 PM.
      1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter9_AbstractFactory\Chapter9_AbstractFactory.vcxproj" on node 2 (Rebuild target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Chapter9_AbstractFactory.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
@@ -11,4 +11,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.61
+Time Elapsed 00:00:00.72

@@ -1,7 +1,7 @@
-﻿Build started 4/14/2017 6:25:55 PM.
+﻿Build started 4/18/2017 5:25:04 PM.
      1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\ModernCppDesign\ModernCppDesign.vcxproj" on node 2 (Build target(s)).
      1>Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\ModernCppDesign.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release" Chapter01_Policies.lib Chapter02_Techniques.lib Chapter03_Typelists.lib Chapter04_SmallObjectAlloc.lib Chapter05_Functors.lib Chapter06_Singleton.lib Chapter07_SmartPointers.lib Chapter08_ObjectFactories.lib Chapter09_AbstractFactory.lib Chapter10_Visitor.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\ModernCppDesign.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\ModernCppDesign.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\ModernCppDesign.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release" Chapter01_Policies.lib Chapter02_Techniques.lib Chapter03_Typelists.lib Chapter04_SmallObjectAlloc.lib Chapter05_Functors.lib Chapter06_Singleton.lib Chapter07_SmartPointers.lib Chapter08_ObjectFactories.lib Chapter09_AbstractFactory.lib Chapter10_Visitor.lib Chapter11_Multimethods.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\ModernCppDesign.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\ModernCppDesign.lib" /MACHINE:X86 /SAFESEH Release\main.obj
          Generating code
          Finished generating code
          ModernCppDesign.vcxproj -> C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release\ModernCppDesign.exe
@@ -9,4 +9,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.32
+Time Elapsed 00:00:01.66

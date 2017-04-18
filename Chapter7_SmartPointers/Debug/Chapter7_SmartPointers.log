@@ -1,4 +1,4 @@
-﻿Build started 4/14/2017 4:55:13 PM.
+﻿Build started 4/18/2017 3:45:13 PM.
      1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter7_SmartPointers\Chapter7_SmartPointers.vcxproj" on node 3 (Rebuild target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Chapter7_SmartPointers.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
@@ -11,4 +11,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.63
+Time Elapsed 00:00:01.52

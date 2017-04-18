@@ -57,12 +57,12 @@
       <PreprocessorDefinitions>
       </PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter1_Policies;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter2_Techniques;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter3_Typelists;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter4_SmallObjectAlloc;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter5_Functors;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter6_Singleton;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter7_SmartPointers;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter8_ObjectFactories;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter9_AbstractFactory;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter10_Visitor;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter1_Policies;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter2_Techniques;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter3_Typelists;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter4_SmallObjectAlloc;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter5_Functors;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter6_Singleton;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter7_SmartPointers;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter8_ObjectFactories;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter9_AbstractFactory;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter10_Visitor;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter11_Multimethods;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>Chapter01_Policies.lib;Chapter02_Techniques.lib;Chapter03_Typelists.lib;Chapter04_SmallObjectAlloc.lib;Chapter05_Functors.lib;Chapter06_Singleton.lib;Chapter07_SmartPointers.lib;Chapter08_ObjectFactories.lib;Chapter09_AbstractFactory.lib;Chapter10_Visitor.lib</AdditionalDependencies>
+      <AdditionalDependencies>Chapter01_Policies.lib;Chapter02_Techniques.lib;Chapter03_Typelists.lib;Chapter04_SmallObjectAlloc.lib;Chapter05_Functors.lib;Chapter06_Singleton.lib;Chapter07_SmartPointers.lib;Chapter08_ObjectFactories.lib;Chapter09_AbstractFactory.lib;Chapter10_Visitor.lib;Chapter11_Multimethods.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -76,14 +76,14 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter1_Policies;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter2_Techniques;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter3_Typelists;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter4_SmallObjectAlloc;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter5_Functors;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter6_Singleton;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter7_SmartPointers;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter8_ObjectFactories;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter9_AbstractFactory;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter10_Visitor;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter10_Vistor\Release</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter1_Policies;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter2_Techniques;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter3_Typelists;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter4_SmallObjectAlloc;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter5_Functors;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter6_Singleton;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter7_SmartPointers;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter8_ObjectFactories;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter9_AbstractFactory;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter10_Visitor;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter11_Multimethods;C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter10_Vistor\Release</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>Chapter01_Policies.lib;Chapter02_Techniques.lib;Chapter03_Typelists.lib;Chapter04_SmallObjectAlloc.lib;Chapter05_Functors.lib;Chapter06_Singleton.lib;Chapter07_SmartPointers.lib;Chapter08_ObjectFactories.lib;Chapter09_AbstractFactory.lib;Chapter10_Visitor.lib</AdditionalDependencies>
+      <AdditionalDependencies>Chapter01_Policies.lib;Chapter02_Techniques.lib;Chapter03_Typelists.lib;Chapter04_SmallObjectAlloc.lib;Chapter05_Functors.lib;Chapter06_Singleton.lib;Chapter07_SmartPointers.lib;Chapter08_ObjectFactories.lib;Chapter09_AbstractFactory.lib;Chapter10_Visitor.lib;Chapter11_Multimethods.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Release</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>

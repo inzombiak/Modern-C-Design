@@ -1,13 +1,13 @@
-﻿Build started 4/14/2017 4:58:14 PM.
-     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter10_Visitor\Chapter10_Visitor.vcxproj" on node 2 (Build target(s)).
+﻿Build started 4/18/2017 3:45:14 PM.
+     1>Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter10_Visitor\Chapter10_Visitor.vcxproj" on node 4 (Rebuild target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Chapter10.cpp
          Chapter10.cpp
        Lib:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\Chapter10_Visitor.lib" /NOLOGO Debug\Chapter10.obj
          Chapter10_Visitor.vcxproj -> C:\Users\User\Documents\GitHub\Modern C++ Design\ModernCppDesign\Debug\Chapter10_Visitor.lib
-     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter10_Visitor\Chapter10_Visitor.vcxproj" (Build target(s)).
+     1>Done Building Project "C:\Users\User\Documents\GitHub\Modern C++ Design\Chapter10_Visitor\Chapter10_Visitor.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.42
+Time Elapsed 00:00:00.72

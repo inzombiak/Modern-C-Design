@@ -8,6 +8,7 @@
 #include "Chapter8.h"
 #include "Chapter9.h"
 #include "Chapter10.h"
+#include "Chapter11.h"
 //#include "Game.h"
 
 #include <iostream>
@@ -83,6 +84,13 @@ int main()
 	Chapter10::Run();
 	std::cout << std::endl;
 	std::cout << "****Chapter 10 End****" << std::endl;
+	std::cout << std::endl;
+
+	std::cout << "****Chapter 11 Start****" << std::endl;
+	std::cout << std::endl;
+	Chapter11::Run();
+	std::cout << std::endl;
+	std::cout << "****Chapter 11 End****" << std::endl;
 	std::cout << std::endl;
 
 	//std::cout << "****Game Start****" << std::endl;
